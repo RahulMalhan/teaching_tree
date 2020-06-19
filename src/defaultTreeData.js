@@ -10,10 +10,10 @@ function fill() {
   for (let index = 0; index < 100; index++) {
     //const element = array[index];
     treedata.push({
-      title: `subject ${index}`,
+      title: `subject ${index}`, isDirectory,
       children: [
-        { title: 'lesson 1' },
-        { title: 'lesson 2', isDirectory, children: [{ title: 'module ' }] },
+        { title: 'lesson 1', isDirectory },
+        { title: 'lesson 2', isDirectory, children: [{ title: 'module' }] },
       ],
     })
   }
