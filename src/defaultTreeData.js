@@ -14,6 +14,7 @@ function fill() {
       children: [
         { title: 'lesson 1', isDirectory },
         { title: 'lesson 2', isDirectory, children: [{ title: 'module' }] },
+        
       ],
     })
   }
